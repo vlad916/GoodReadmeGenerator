@@ -51,3 +51,10 @@ inquirer
       message: "Please enter your GitHub username",
     },
   ])
+  .then (function (data) {
+      fs.writeFile("goodreadme", generateMdfile (data), (err) => {
+          if (err) return console.log(err);
+          console.log ("File created Successfully");
+      });
+  })
+  
