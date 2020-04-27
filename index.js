@@ -55,11 +55,11 @@ inquirer
   .then(function (data) {
     fs.writeFile("goodreadme.md", generateMdFile(data), function (err) {
       if (err) return console.log(err);
-      console.log("Success");
+      console.log("File Created Successfully");
     });
   })
   .catch(function (err) {
-    console.log(err);
+    console.log("Something went wrong in creating the file");
   });
 
 function generateMdFile(data) {
@@ -75,13 +75,13 @@ function generateMdFile(data) {
 
 ## Table of Contents
 
-  1. Project Title
+  1. [Project Title](https://github.com/vlad916/${data.title}/blob/master/goodreadme.md)
   2. Description
   3. Installation
-  4. Usage
+  4. [Usage](https://github.com/vlad916/GoodReadmeGenerator/blob/${data.usage}/goodreadme.md)
   5. License
-  6. Contributor
-  7. Test
+  6. [Contributor](https://github.com/vlad916/GoodReadmeGenerator/${data.installation}/master/goodreadme.md)
+  7. [Test](https://github.com/${data.test}/GoodReadmeGenerator/blob/master/goodreadme.md)
   8. Email
   9. GitHub Username
 
