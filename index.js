@@ -65,7 +65,7 @@ inquirer
 function generateMdFile(data) {
   return `
              
-# Project Title: 
+# Project Title
 
 ## ${data.title}
    ____
@@ -73,13 +73,27 @@ function generateMdFile(data) {
     
   ${data.description}
 
-## Installation : 
+x## Table of Contents
+
+  1. Project Title
+  2. Description
+  3. Installation
+  4. Usage
+  5. License
+  6. Contributor
+  7. Test
+  8. Email
+  9. GitHub Username
+
+## Installation 
   
   ${data.installation}
 
 ## Usage
-                
-## License
+  
+  ${data.usage}
+
+  ## License
     
   ${data.license}
 
