@@ -97,6 +97,10 @@ function generateMdFile(data) {
     
   ${data.license}
 
+## GitHub Profile 
+
+  # [![github](https://img.shields.io/badge/Github-Profile-profile.svg)](https://github.com/vlad916) 
+
 ## Contributor
 
   ${data.contributing}
@@ -112,10 +116,6 @@ function generateMdFile(data) {
 ## GitHub Username
 
   ${data.user}
-
-## GitHub Profile 
-
-  # [![github](https://img.shields.io/badge/Github-Profile-profile.svg)](https://github.com/vlad916) 
 
 `;
 }

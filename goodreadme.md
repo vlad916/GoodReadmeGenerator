@@ -6,7 +6,7 @@
    ____
 ## Description 
     
-  A program that creates a readme file using node.js
+  a program that uses node.js to creates a readme.md file using node.js
 
 ## Table of Contents
 
@@ -26,11 +26,15 @@
 
 ## Usage
   
-  node.js and npm packages
+  npm packages and node.js
 
 ## License
     
   Affero GPLv3
+
+## GitHub Profile 
+
+  # [![github](https://img.shields.io/badge/Github-Profile-profile.svg)](https://github.com/vlad916) 
 
 ## Contributor
 
@@ -47,8 +51,4 @@
 ## GitHub Username
 
   Vlad916
-
-## GitHub Profile 
-
-  # [![github](https://img.shields.io/badge/Github-Profile-profile.svg)](https://github.com/vlad916) 
 
