@@ -2,11 +2,11 @@
              
 # Project Title 
 
-  ## asdf
+  ## Good Readme Generator
    ____
 ## Description 
     
-  asdf
+  A program that creates a readme.md file using node.js
 
 ## Table of Contents
 
@@ -17,20 +17,20 @@
   5. License
   6. Contributor
   7. Test
-  8. Email(https://github.com/vlad916/GoodReadmeGenerator/blob/master/goodreadme.md Email)
+  8. Email
   9. GitHub Username
 
 ## Installation 
   
-  asdf 
+  npm install 
 
 ## Usage
   
-  asdf
+  node.js and npm packages
 
 ## License
     
-  LGPLv3
+  Affero GPLv3
 
 ## GitHub Profile 
 
@@ -38,17 +38,17 @@
 
 ## Contributor
 
-  
+  Angelo Ungos
 
 ## Tests
   
-  asdf
+  npm test
 
 ## Email
 
-  asdf
+  ungosangelo916@yahoo.com.au
 
 ## GitHub Username
 
-  asdf
+  Vlad916
 

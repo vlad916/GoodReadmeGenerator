@@ -75,13 +75,13 @@ function generateMdFile(data) {
 
 ## Table of Contents
 
-  1. [Project Title](https://github.com/vlad916/${data.title}/blob/master/goodreadme.md)
+  1. Project Title
   2. Description
   3. Installation
-  4. [Usage](https://github.com/vlad916/GoodReadmeGenerator/blob/${data.usage}/goodreadme.md)
+  4. Usage
   5. License
-  6. [Contributor](https://github.com/vlad916/GoodReadmeGenerator/${data.installation}/master/goodreadme.md)
-  7. [Test](https://github.com/${data.test}/GoodReadmeGenerator/blob/master/goodreadme.md)
+  6. Contributor
+  7. Test
   8. Email
   9. GitHub Username
 
