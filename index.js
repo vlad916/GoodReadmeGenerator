@@ -1,6 +1,7 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
-const util = require("util");
+const util = require ("util");
+
 
 inquirer
   .prompt([
@@ -51,10 +52,55 @@ inquirer
       message: "Please enter your GitHub username",
     },
   ])
-  .then (function (data) {
-      fs.writeFile("goodreadme", generateMdfile (data), (err) => {
-          if (err) return console.log(err);
-          console.log ("File created Successfully");
-      });
+  .then(function (data) {
+    fs.writeFile("goodreadme.md", generateMdFile(data), function (err) {
+      if (err) return console.log(err);
+      console.log("Success");
+    });
   })
+  .catch(function (err) {
+    console.log(err);
+  });
+
+function generateMdFile(data) {
+  return `
+             
+# Project Title: 
+
+## ${data.title}
+   ____
+## Description 
+    
+  ${data.description}
+
+## Installation : 
   
+  ${data.installation}
+
+## Usage
+                
+## License
+    
+  ${data.license}
+
+## Contributor
+
+  ${data.contributing}
+
+## Tests
+  
+  ${data.test}
+
+## Email
+
+  ${data.email}
+
+## GitHub Username
+
+  ${data.user}
+
+                `;
+}
+
+
+
