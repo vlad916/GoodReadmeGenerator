@@ -2,7 +2,7 @@
              
 # Project Title
 
-## adsf
+## asdf
    ____
 ## Description 
     
@@ -26,7 +26,7 @@
 
 ## Usage
   
-# [![github](https://img.shields.io/badge/github-link-profile.svg)](https://github.com/asdf)   [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://asdf.github.io/my_portfolio/)
+# [![github](https://img.shields.io/badge/github-profile.svg)](https://github.com/vlad916)   
 
   ## License
     
@@ -34,18 +34,18 @@
 
 ## Contributor
 
-  asdf
+  adsf
 
 ## Tests
   
-  adsf
+  asdf
 
 ## Email
 
-  adsf
+  asdf
 
 ## GitHub Username
 
-  asdf
+  
 
                 
