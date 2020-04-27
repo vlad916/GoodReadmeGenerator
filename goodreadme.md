@@ -1,17 +1,17 @@
 
              
-# [Project Title] (id="title") 
+# Project Title 
 
-## asdf
+  ## Good Readme Generator
    ____
 ## Description 
     
-  asdf
+  A program that creates a readme file using node.js
 
 ## Table of Contents
 
-  1. [Project Title](a href="#title") 
-  2. [Description] 
+  1. Project Title
+  2. Description
   3. Installation
   4. Usage
   5. License
@@ -22,19 +22,19 @@
 
 ## Installation 
   
-  asdf 
+  npm install 
 
 ## Usage
   
-  asdf
+  node.js and npm packages
 
 ## License
     
-  LGPLv3
+  Affero GPLv3
 
 ## Contributor
 
-  
+  Angelo Ungos
 
 ## Tests
   
@@ -42,16 +42,13 @@
 
 ## Email
 
-  
+  ungosangelo916@yahoo.com.au
 
 ## GitHub Username
 
-  
+  Vlad916
 
 ## GitHub Profile 
 
   # [![github](https://img.shields.io/badge/Github-Profile-profile.svg)](https://github.com/vlad916) 
 
-
-
-                

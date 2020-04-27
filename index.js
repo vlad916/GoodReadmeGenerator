@@ -1,6 +1,6 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
-const util = require ("util");
+const generateMarkdown = require ("util");
 
 
 inquirer
@@ -44,7 +44,7 @@ inquirer
     {
       type: "input",
       name: "email",
-      message: "What is your GitHub email",
+      message: "Please enter your GitHub email",
     },
     {
       type: "input",
@@ -65,15 +65,15 @@ inquirer
 function generateMdFile(data) {
   return `
              
-# Project Title
+# Project Title 
 
-## ${data.title}
+  ## ${data.title}
    ____
 ## Description 
     
   ${data.description}
 
-x## Table of Contents
+## Table of Contents
 
   1. Project Title
   2. Description
@@ -87,13 +87,13 @@ x## Table of Contents
 
 ## Installation 
   
-  ${data.installation}
+  ${data.installation} 
 
 ## Usage
   
   ${data.usage}
 
-  ## License
+## License
     
   ${data.license}
 
@@ -113,7 +113,11 @@ x## Table of Contents
 
   ${data.user}
 
-                `;
+## GitHub Profile 
+
+  # [![github](https://img.shields.io/badge/Github-Profile-profile.svg)](https://github.com/vlad916) 
+
+`;
 }
 
 
