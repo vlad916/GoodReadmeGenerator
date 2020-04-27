@@ -6,7 +6,7 @@
    ____
 ## Description 
     
-  a program that uses node.js to creates a readme.md file using node.js
+  A program that uses node.js to create a readme.md file using node.js
 
 ## Table of Contents
 
@@ -26,7 +26,7 @@
 
 ## Usage
   
-  npm packages and node.js
+  node.js and npm packages
 
 ## License
     

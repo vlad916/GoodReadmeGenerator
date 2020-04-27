@@ -1,6 +1,6 @@
 
 
-GOOD README GENERATOR
+# GOOD README GENERATOR
 
 
 This project is about making a program that is using node.js in the terminal that 
