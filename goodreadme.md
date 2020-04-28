@@ -2,11 +2,11 @@
              
 # Project Title 
 
-  ## sdfas
+  ## Good Readme Generator
    ____
 ## Description 
     
-  fa
+  A program that creates a readme file using node.js
 
 ## Table of Contents
 
@@ -22,15 +22,15 @@
 
 ## Installation 
   
-  sdf 
+  npm install 
 
 ## Usage
   
-  asd
+  node.js and npm packages
 
 ## License
     
-  LGPLv3
+  Affero GPLv3
 
 ## GitHub Profile 
 
@@ -38,7 +38,7 @@
 
 ## Contributor
 
-  sdf
+  Angelo Ungos
 
 ## Tests
   
@@ -46,9 +46,9 @@
 
 ## Email
 
-  sdfsf@yahoo.com
+  ungosangelo916@yahoo.com.au
 
 ## GitHub Username
 
-  adsf
+  Vlad916
 
