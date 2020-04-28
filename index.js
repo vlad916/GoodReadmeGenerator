@@ -1,6 +1,6 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
-const generateMarkdown = require ("util");
+const generateMarkdown = require("util");
 
 
 inquirer
@@ -45,6 +45,14 @@ inquirer
       type: "input",
       name: "email",
       message: "Please enter your GitHub email",
+      validate: function (character) {
+        const emailFilter = character.match (/^[-!#$%&'*+\/0-9=?A-Z^_a-z{|}~](\.?[-!#$%&'*+\/0-9=?A-Z^_a-z`{|}~])*@[a-zA-Z0-9](-*\.?[a-zA-Z0-9])*\.[a-zA-Z](-?[a-zA-Z0-9])+$/);
+        if (emailFilter) {
+          return true;
+        } else {
+          return "Please enter the correct email address";
+        }
+      }
     },
     {
       type: "input",
