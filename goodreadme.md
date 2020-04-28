@@ -6,7 +6,7 @@
    ____
 ## Description 
     
-  A program that creates a readme.md file using node.js
+  A program that creates a readme file using node.js
 
 ## Table of Contents
 
