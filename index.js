@@ -45,7 +45,7 @@ inquirer
       type: "input",
       name: "email",
       message: "Please enter your GitHub email",
-      validate: function (character) {
+      validate: (character) => {
         const emailFilter = character.match (/^[-!#$%&'*+\/0-9=?A-Z^_a-z{|}~](\.?[-!#$%&'*+\/0-9=?A-Z^_a-z`{|}~])*@[a-zA-Z0-9](-*\.?[a-zA-Z0-9])*\.[a-zA-Z](-?[a-zA-Z0-9])+$/);
         if (emailFilter) {
           return true;
@@ -60,13 +60,13 @@ inquirer
       message: "Please enter your GitHub username",
     },
   ])
-  .then(function (data) {
-    fs.writeFile("goodreadme.md", generateMdFile(data), function (err) {
+  .then((data) => {
+    fs.writeFile("goodreadme.md", generateMdFile(data), (err) => {
       if (err) return console.log(err);
       console.log("File Created Successfully");
     });
   })
-  .catch(function (err) {
+  .catch((err) => {
     console.log("Something went wrong in creating the file");
   });
 
