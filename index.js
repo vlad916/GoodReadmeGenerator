@@ -75,55 +75,56 @@ function generateMdFile(data) {
              
 # Project Title 
 
-  ## ${data.title}
-   ____
+## ${data.title}
+---
+  
 ## Description 
-    
-  ${data.description}
-
+      
+      ${data.description}
+  
 ## Table of Contents
-
-  1. Project Title
-  2. Description
-  3. Installation
-  4. Usage
-  5. License
-  6. Contributor
-  7. Test
-  8. Email
-  9. GitHub Username
-
+  
+* Project Title
+* Description
+* Installation
+* Usage
+* License
+* Contributor
+* Test
+* Email
+* GitHub Username
+  
 ## Installation 
   
-  ${data.installation} 
-
+      ${data.installation}
+  
 ## Usage
-  
-  ${data.usage}
-
-## License
     
-  ${data.license}
-
-## GitHub Profile 
-
-  # [![github](https://img.shields.io/badge/Github-Profile-profile.svg)](https://github.com/vlad916) 
-
-## Contributor
-
-  ${data.contributing}
-
-## Tests
+      ${data.usage}
   
-  ${data.test}
-
+## License
+      
+      ${data.license}
+  
+## GitHub Profile 
+  
+# [![github](https://img.shields.io/badge/Github-Profile-profile.svg)](https://github.com/vlad916) 
+  
+## Contributor
+  
+      ${data.contributing}
+  
+## Tests
+    
+      ${data.test}
+  
 ## Email
-
-  ${data.email}
-
+  
+      ${data.email}
+  
 ## GitHub Username
-
-  ${data.user}
+  
+      ${data.user}
 
 `;
 }
