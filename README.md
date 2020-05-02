@@ -14,7 +14,7 @@ https://github.com/vlad916/GoodReadmeGenerator/blob/master/goodreadme.md
 
 ### Link for the VIDEO (demo): 
 
-https://drive.google.com/drive/folders/10i_kEBrBesXqss4OdnT7ydXdt0tnwgCj?usp=sharing
+https://drive.google.com/file/d/1y8KRMOkwQCWfiUUB_QXFZvYbDVCM7XfM/view?usp=sharing
 
 ### Instructions in using the application:
 
